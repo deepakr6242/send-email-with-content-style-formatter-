@@ -10,12 +10,12 @@ df = pd.DataFrame({'DATE': [1.458315, 1.576704, 1.629253, 1.6693310000000001, 1.
           'ALERT_MESSAGE': [-0.0057090000000000005, -0.005122, -0.0047539999999999995, -0.003525, -0.003134, -0.0012230000000000001, -0.0017230000000000001, -0.002013, -0.001396, 0.005732]})
 
 me = "deepakr6242@gmail.com"
-you = "deepak.rayathurai@cognizant"
+you = "xxxxxx"
 
 # Create message container - the correct MIME type is multipart/alternative.
 smtp_server = "smtp.gmail.com"
 port = 587  # For starttls
-password = "Kalmaha1234"
+password = "xxxxxx"
 msg = MIMEMultipart('alternative')
 msg['Subject'] = "Link"
 msg['From'] = me
